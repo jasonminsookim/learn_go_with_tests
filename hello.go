@@ -13,7 +13,7 @@ const frenchHelloPrefix = "Bonjour, "
 
 
 
-func Hello(name string, language string) string {
+func Hello(name string, language string) string { 
 	if name == "" {
 		name = "World"
 	}
@@ -22,7 +22,7 @@ func Hello(name string, language string) string {
 
 }
 
-func greetingPrefix(language string) (prefix string) {
+func greetingPrefix(language string) (prefix string) { // Here we named a returned value prefix, which is a string.
 	switch language {
 	case spanish:
 		prefix = spanishHelloPrefix
@@ -31,7 +31,7 @@ func greetingPrefix(language string) (prefix string) {
 	default:
 		prefix = englishHelloPrefix
 	}
-	return
+	return // Returns the prefix string value. 
 }
 
 
