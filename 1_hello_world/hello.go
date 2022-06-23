@@ -1,7 +1,7 @@
 // When you write a program in Go you will have a main package
 // defined with a main func insite it.
 
-package main
+package hello_world
 
 import "fmt"
 
