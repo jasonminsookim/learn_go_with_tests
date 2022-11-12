@@ -1,0 +1,7 @@
+go 1.19
+
+use (
+	./1_hello_world
+	./2_integers
+	./3_iteration
+)
